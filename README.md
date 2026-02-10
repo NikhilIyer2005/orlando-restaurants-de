@@ -20,17 +20,17 @@ Identify and analyze restaurants near UCF that are open late at night, with a fo
 
 ## 🏗️ Architecture
 
-Yelp API
-├── Search Endpoint (pagination)
-└── Business Details Endpoint (hours, categories)
-↓
-Raw Layer (JSON)
-↓
-Staging Layer (normalized CSVs)
-↓
-Warehouse Layer (SQLite for local analytics, PostgreSQL for production-style querying)
-↓
-SQL Analytics Queries
+    Yelp API
+    ├── Search Endpoint (pagination)
+    └── Business Details Endpoint (hours, categories)
+    ↓
+    Raw Layer (JSON)
+    ↓
+    Staging Layer (normalized CSVs)
+    ↓
+    Warehouse Layer (SQLite for local analytics, PostgreSQL for production-style querying)
+    ↓
+    SQL Analytics Queries
 
 ---
 
