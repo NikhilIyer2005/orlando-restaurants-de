@@ -1,0 +1,473 @@
+source,source_id,category_title,category_alias
+yelp,kqgcFPwYrkMlQzuF-CNREg,Coffee & Tea,coffee
+yelp,kqgcFPwYrkMlQzuF-CNREg,Food Trucks,foodtrucks
+yelp,kqgcFPwYrkMlQzuF-CNREg,Sandwiches,sandwiches
+yelp,0mjo-giJPlOiJTBSvKaxCw,Food Trucks,foodtrucks
+yelp,0mjo-giJPlOiJTBSvKaxCw,Tacos,tacos
+yelp,mlGafWdmtJHk3F8gJoFJiw,Bakeries,bakeries
+yelp,mlGafWdmtJHk3F8gJoFJiw,Convenience Stores,convenience
+yelp,mlGafWdmtJHk3F8gJoFJiw,Mexican,mexican
+yelp,XN06Vl1v6XEfecypFSf97Q,Bars,bars
+yelp,XN06Vl1v6XEfecypFSf97Q,American,tradamerican
+yelp,XN06Vl1v6XEfecypFSf97Q,Arcades,arcades
+yelp,zabg3jzVrVHD2gCYzhszCQ,Mexican,mexican
+yelp,zabg3jzVrVHD2gCYzhszCQ,Food Trucks,foodtrucks
+yelp,f9aUKLm2hMd33c-794E-EA,Desserts,desserts
+yelp,f9aUKLm2hMd33c-794E-EA,Sandwiches,sandwiches
+yelp,f9aUKLm2hMd33c-794E-EA,Waffles,waffles
+yelp,jFdlENO0HmIRbky9RIBGbA,Asian Fusion,asianfusion
+yelp,i5xLglHzH7vyWvPvl4VKXw,Italian,italian
+yelp,i5xLglHzH7vyWvPvl4VKXw,Pizza,pizza
+yelp,i5xLglHzH7vyWvPvl4VKXw,Food Trucks,foodtrucks
+yelp,Cr33Sp-lnfd9eqh7ahtyAQ,Italian,italian
+yelp,Cr33Sp-lnfd9eqh7ahtyAQ,Pizza,pizza
+yelp,Cr33Sp-lnfd9eqh7ahtyAQ,Desserts,desserts
+yelp,Nx1dEXXY3EfIGiyhCCjQuA,Wine Bars,wine_bars
+yelp,Nx1dEXXY3EfIGiyhCCjQuA,Salad,salad
+yelp,Nx1dEXXY3EfIGiyhCCjQuA,Tapas/Small Plates,tapasmallplates
+yelp,aCvgaAOxslD6OTcwfxVLPA,Turkish,turkish
+yelp,_YyKKRxmXdLT8ZGfiAUzpA,Cafes,cafes
+yelp,noOUkFJ1TyIMXePZXMQlbw,Chinese,chinese
+yelp,noOUkFJ1TyIMXePZXMQlbw,Wraps,wraps
+yelp,ffMKfxhBS0p8PZruwby3KQ,Bubble Tea,bubbletea
+yelp,ffMKfxhBS0p8PZruwby3KQ,Chicken Wings,chicken_wings
+yelp,ffMKfxhBS0p8PZruwby3KQ,Ramen,ramen
+yelp,qPwCNLNSLD2E0MS5NDeUwQ,Southern,southern
+yelp,qPwCNLNSLD2E0MS5NDeUwQ,Barbeque,bbq
+yelp,QgkEQvj-TJI58ifSul0Tcg,Japanese,japanese
+yelp,QgkEQvj-TJI58ifSul0Tcg,Asian Fusion,asianfusion
+yelp,fyC1cTn0Brb4otDg-XGUmg,New Mexican Cuisine,newmexican
+yelp,qXc1LQi_uL6zgALJHOpDxQ,Italian,italian
+yelp,7vjMGr949XRl-j6pOnQMFg,Chinese,chinese
+yelp,JwBkHjtVQ27MW4SBCdfKkg,Delis,delis
+yelp,JwBkHjtVQ27MW4SBCdfKkg,Sandwiches,sandwiches
+yelp,5Z2tJZ9jkM_2EpUn2UQzjw,Caribbean,caribbean
+yelp,5Z2tJZ9jkM_2EpUn2UQzjw,Chicken Shop,chickenshop
+yelp,5Z2tJZ9jkM_2EpUn2UQzjw,Seafood,seafood
+yelp,vv9DS3NcbIt-_j78cMN5ug,Colombian,colombian
+yelp,vv9DS3NcbIt-_j78cMN5ug,Fast Food,hotdogs
+yelp,vv9DS3NcbIt-_j78cMN5ug,Food Trucks,foodtrucks
+yelp,gg49XGGHcLxeLu6VOcGzdA,Mexican,mexican
+yelp,gg49XGGHcLxeLu6VOcGzdA,Breakfast & Brunch,breakfast_brunch
+yelp,gg49XGGHcLxeLu6VOcGzdA,Salad,salad
+yelp,ZWOilU4wdFnsnl-6Qv5qJQ,Food Trucks,foodtrucks
+yelp,ZWOilU4wdFnsnl-6Qv5qJQ,Food Delivery Services,fooddeliveryservices
+yelp,ZWOilU4wdFnsnl-6Qv5qJQ,Tacos,tacos
+yelp,hs6O7kGqzQ4_t4pGUaZ5kw,Argentine,argentine
+yelp,ITQcPK3XV4rfnH6htrhf9A,Chicken Shop,chickenshop
+yelp,ITQcPK3XV4rfnH6htrhf9A,Sports Bars,sportsbars
+yelp,ITQcPK3XV4rfnH6htrhf9A,Sandwiches,sandwiches
+yelp,mVWa_B0sZPnbKUV2YrU5qg,Peruvian,peruvian
+yelp,mVWa_B0sZPnbKUV2YrU5qg,Chicken Shop,chickenshop
+yelp,YUQ6-6dHKSJQxL8ZLWhe2g,Donuts,donuts
+yelp,YUQ6-6dHKSJQxL8ZLWhe2g,Hot Dogs,hotdog
+yelp,Z9Qz1DaPMvPaqMVK09ZYqg,Arcades,arcades
+yelp,Z9Qz1DaPMvPaqMVK09ZYqg,Wine Bars,wine_bars
+yelp,Z9Qz1DaPMvPaqMVK09ZYqg,Cuban,cuban
+yelp,ORCImXryHa7e2EXmYdyKzA,Mexican,mexican
+yelp,QRYuVv6LbuXKD4GKxPHxMQ,Food Trucks,foodtrucks
+yelp,QRYuVv6LbuXKD4GKxPHxMQ,Tacos,tacos
+yelp,ddKqU6sngBKrhNe51pxKQA,Creperies,creperies
+yelp,ddKqU6sngBKrhNe51pxKQA,Ice Cream & Frozen Yogurt,icecream
+yelp,ddKqU6sngBKrhNe51pxKQA,Desserts,desserts
+yelp,SpLFU9x9fqX66XylC8qoGA,Mediterranean,mediterranean
+yelp,SpLFU9x9fqX66XylC8qoGA,Egyptian,egyptian
+yelp,SpLFU9x9fqX66XylC8qoGA,Halal,halal
+yelp,Coj5mUSaIzdZylxPQelg9w,Bars,bars
+yelp,Coj5mUSaIzdZylxPQelg9w,Sandwiches,sandwiches
+yelp,IC5P-H6ik5FyM4oZaJCntg,Coffee & Tea,coffee
+yelp,IC5P-H6ik5FyM4oZaJCntg,Desserts,desserts
+yelp,IC5P-H6ik5FyM4oZaJCntg,Middle Eastern,mideastern
+yelp,igjR74V5lNhvysM05OZyXA,Halal,halal
+yelp,igjR74V5lNhvysM05OZyXA,Burgers,burgers
+yelp,igjR74V5lNhvysM05OZyXA,Chicken Wings,chicken_wings
+yelp,p31x-FIvjCM8Br2MyQ9tlQ,Coffee & Tea,coffee
+yelp,p31x-FIvjCM8Br2MyQ9tlQ,Breakfast & Brunch,breakfast_brunch
+yelp,p31x-FIvjCM8Br2MyQ9tlQ,Sandwiches,sandwiches
+yelp,cb6XFaUrSLhTWpCuOCgCAg,Mexican,mexican
+yelp,xIbINpWc2TZorB9FnLvixw,Noodles,noodles
+yelp,xIbINpWc2TZorB9FnLvixw,Food Trucks,foodtrucks
+yelp,xIbINpWc2TZorB9FnLvixw,Ramen,ramen
+yelp,OK_--wLgyXwF4Btv04cZ0A,Bubble Tea,bubbletea
+yelp,OK_--wLgyXwF4Btv04cZ0A,Ramen,ramen
+yelp,OK_--wLgyXwF4Btv04cZ0A,Sushi Bars,sushi
+yelp,Lghp_sRkbth4Ttg_eEaNUA,Soup,soup
+yelp,Lghp_sRkbth4Ttg_eEaNUA,Salad,salad
+yelp,Lghp_sRkbth4Ttg_eEaNUA,Dim Sum,dimsum
+yelp,tB2LegQ7Fa5dcLnlanNNKw,Mediterranean,mediterranean
+yelp,tB2LegQ7Fa5dcLnlanNNKw,Greek,greek
+yelp,tB2LegQ7Fa5dcLnlanNNKw,Halal,halal
+yelp,JVxIyG6pnV5vvqtnM8W5SQ,Thai,thai
+yelp,jtXX2PeLlLq8hFAbIfFrTg,Sushi Bars,sushi
+yelp,mf77ydEQUHqa41TEk70pkA,Puerto Rican,puertorican
+yelp,p8ArY2BBZB2TppW2qYG75Q,Acai Bowls,acaibowls
+yelp,p8ArY2BBZB2TppW2qYG75Q,Juice Bars & Smoothies,juicebars
+yelp,p8ArY2BBZB2TppW2qYG75Q,Vegetarian,vegetarian
+yelp,-i20Yl0MTUr-i1N-58-JJA,Poke,poke
+yelp,-i20Yl0MTUr-i1N-58-JJA,Hawaiian,hawaiian
+yelp,RyP_OAZhu6TFgXDxv1sPCw,Mediterranean,mediterranean
+yelp,RyP_OAZhu6TFgXDxv1sPCw,Halal,halal
+yelp,RyP_OAZhu6TFgXDxv1sPCw,Wraps,wraps
+yelp,mAOcJjJwMfQn9UlsYvsPnQ,Sushi Bars,sushi
+yelp,mAOcJjJwMfQn9UlsYvsPnQ,Japanese,japanese
+yelp,mAOcJjJwMfQn9UlsYvsPnQ,Asian Fusion,asianfusion
+yelp,wegGvfCmN8laX94wT830_A,Japanese,japanese
+yelp,Ag89Kt5lObftTZG7yPCMsQ,Breakfast & Brunch,breakfast_brunch
+yelp,Ag89Kt5lObftTZG7yPCMsQ,Coffee & Tea,coffee
+yelp,GZfBzqB-4rxh504gNw4BoA,Acai Bowls,acaibowls
+yelp,GZfBzqB-4rxh504gNw4BoA,Burgers,burgers
+yelp,GZfBzqB-4rxh504gNw4BoA,Juice Bars & Smoothies,juicebars
+yelp,rAFwZ8QtoJTH-Nm9jDnR8A,Vietnamese,vietnamese
+yelp,rAFwZ8QtoJTH-Nm9jDnR8A,Coffee & Tea,coffee
+yelp,rAFwZ8QtoJTH-Nm9jDnR8A,Noodles,noodles
+yelp,KLMC4Tgin63xa2j9w8Im-w,Bubble Tea,bubbletea
+yelp,KLMC4Tgin63xa2j9w8Im-w,Sushi Bars,sushi
+yelp,KLMC4Tgin63xa2j9w8Im-w,Poke,poke
+yelp,ULU1v4LqU5LbRNnMXbWykg,Pizza,pizza
+yelp,ULU1v4LqU5LbRNnMXbWykg,Fast Food,hotdogs
+yelp,BKxni1zlB-aUQbTBq1daVQ,Italian,italian
+yelp,BKxni1zlB-aUQbTBq1daVQ,Pizza,pizza
+yelp,bMPfKusLI8i6cZ5JIsWvJg,Bakeries,bakeries
+yelp,bMPfKusLI8i6cZ5JIsWvJg,Caribbean,caribbean
+yelp,bMPfKusLI8i6cZ5JIsWvJg,Fast Food,hotdogs
+yelp,hIISqgMPDH5vYjbtOwiomQ,Ice Cream & Frozen Yogurt,icecream
+yelp,hIISqgMPDH5vYjbtOwiomQ,Waffles,waffles
+yelp,hIISqgMPDH5vYjbtOwiomQ,Creperies,creperies
+yelp,6AlfW9j93S-a3Oucudrv9w,Tacos,tacos
+yelp,6AlfW9j93S-a3Oucudrv9w,Beer Bar,beerbar
+yelp,6AlfW9j93S-a3Oucudrv9w,Desserts,desserts
+yelp,STtLaPOzWQcjvQ5nSE37aA,Food Trucks,foodtrucks
+yelp,STtLaPOzWQcjvQ5nSE37aA,Desserts,desserts
+yelp,STtLaPOzWQcjvQ5nSE37aA,Fast Food,hotdogs
+yelp,dXJnq-gyKI1avei_Mg3OIg,Tex-Mex,tex-mex
+yelp,dXJnq-gyKI1avei_Mg3OIg,Mexican,mexican
+yelp,dXJnq-gyKI1avei_Mg3OIg,Pizza,pizza
+yelp,QEXYxYcv3sly1BUgyWflPA,Coffee & Tea,coffee
+yelp,QEXYxYcv3sly1BUgyWflPA,Breakfast & Brunch,breakfast_brunch
+yelp,QEXYxYcv3sly1BUgyWflPA,Bagels,bagels
+yelp,D-NyPKKw4RLaxlSM1rj-MQ,Thai,thai
+yelp,D-NyPKKw4RLaxlSM1rj-MQ,Noodles,noodles
+yelp,D-NyPKKw4RLaxlSM1rj-MQ,Ramen,ramen
+yelp,xN1f9qxnPZjn8lgpW-qUmQ,Creperies,creperies
+yelp,xN1f9qxnPZjn8lgpW-qUmQ,Gelato,gelato
+yelp,xN1f9qxnPZjn8lgpW-qUmQ,Coffee & Tea,coffee
+yelp,fMgJXt7EIAF0_XT1Fl6tgQ,Indian,indpak
+yelp,fMgJXt7EIAF0_XT1Fl6tgQ,Chicken Wings,chicken_wings
+yelp,fMgJXt7EIAF0_XT1Fl6tgQ,Pizza,pizza
+yelp,PmIaEMIHUeL3vYMqYmMaHg,Japanese,japanese
+yelp,PmIaEMIHUeL3vYMqYmMaHg,Sushi Bars,sushi
+yelp,gIDRjQIutDCoVUET5Dzt0A,Barbeque,bbq
+yelp,gIDRjQIutDCoVUET5Dzt0A,Salad,salad
+yelp,gIDRjQIutDCoVUET5Dzt0A,Smokehouse,smokehouse
+yelp,hXMnuwm60BJLTajbQOgPxA,Bakeries,bakeries
+yelp,hXMnuwm60BJLTajbQOgPxA,Cafes,cafes
+yelp,Gov4SW27iYWV9LS46kmiUA,Szechuan,szechuan
+yelp,4XOHGutxMjpBu6ZLGNzs0A,Middle Eastern,mideastern
+yelp,4XOHGutxMjpBu6ZLGNzs0A,Mediterranean,mediterranean
+yelp,heMHfbHTwcVjKPsnYFFNAg,Indian,indpak
+yelp,heMHfbHTwcVjKPsnYFFNAg,Chinese,chinese
+yelp,heMHfbHTwcVjKPsnYFFNAg,Halal,halal
+yelp,CSHiunmos7rw5-jb1hbZVg,Specialty Food,gourmet
+yelp,CSHiunmos7rw5-jb1hbZVg,Vegetarian,vegetarian
+yelp,CSHiunmos7rw5-jb1hbZVg,International Grocery,intlgrocery
+yelp,z_uwU0ZDX1ZtbjQW-7O-nA,Vietnamese,vietnamese
+yelp,k2-2ZyfbwLlV2-n5NbCzvA,Asian Fusion,asianfusion
+yelp,k2-2ZyfbwLlV2-n5NbCzvA,Bubble Tea,bubbletea
+yelp,k2-2ZyfbwLlV2-n5NbCzvA,Chinese,chinese
+yelp,bPVizrhzuZFhDAc-IFygpQ,Puerto Rican,puertorican
+yelp,bPVizrhzuZFhDAc-IFygpQ,Latin American,latin
+yelp,bPVizrhzuZFhDAc-IFygpQ,Mexican,mexican
+yelp,KFuqBxk4-hh8CLr-z18xJg,Italian,italian
+yelp,KFuqBxk4-hh8CLr-z18xJg,Salad,salad
+yelp,KFuqBxk4-hh8CLr-z18xJg,Pizza,pizza
+yelp,h3fkLmaNNjeqFXIt80DeKA,Pizza,pizza
+yelp,h3fkLmaNNjeqFXIt80DeKA,Italian,italian
+yelp,h3fkLmaNNjeqFXIt80DeKA,Salad,salad
+yelp,GQjPWYvEMk86W3GYQ2kyrA,Caribbean,caribbean
+yelp,T-vYQeuy8toLTDS8g8IHsg,Sushi Bars,sushi
+yelp,T-vYQeuy8toLTDS8g8IHsg,Bars,bars
+yelp,4NiNvw5cqvcKDlqnvGzoIQ,Chinese,chinese
+yelp,4NiNvw5cqvcKDlqnvGzoIQ,Pan Asian,panasian
+yelp,4NiNvw5cqvcKDlqnvGzoIQ,Cocktail Bars,cocktailbars
+yelp,kl8nZOIEifhrbVP-6GG5uQ,Coffee & Tea,coffee
+yelp,kl8nZOIEifhrbVP-6GG5uQ,Acai Bowls,acaibowls
+yelp,kl8nZOIEifhrbVP-6GG5uQ,Sandwiches,sandwiches
+yelp,NQp9tJxgoOuyRQGdgr3BRA,Cafes,cafes
+yelp,NQp9tJxgoOuyRQGdgr3BRA,Coffee & Tea,coffee
+yelp,EN0BxgIktRfXpECqKXgczw,Hawaiian,hawaiian
+yelp,EN0BxgIktRfXpECqKXgczw,Poke,poke
+yelp,EN0BxgIktRfXpECqKXgczw,Salad,salad
+yelp,Q2_nlXuhXfBhvkOo1Qiaow,Fast Food,hotdogs
+yelp,Q2_nlXuhXfBhvkOo1Qiaow,Asian Fusion,asianfusion
+yelp,5xCfAa3mPxWQQurvAURKJA,New American,newamerican
+yelp,ALisPhj-3qsUzk9jD6Rh9A,New American,newamerican
+yelp,ALisPhj-3qsUzk9jD6Rh9A,Food Stands,foodstands
+yelp,ALisPhj-3qsUzk9jD6Rh9A,Food Trucks,foodtrucks
+yelp,HP6usCWbGeIKd8xdK4KerQ,Pizza,pizza
+yelp,rirAl4R82iP1UoOBDJSD7Q,Tex-Mex,tex-mex
+yelp,rirAl4R82iP1UoOBDJSD7Q,Mexican,mexican
+yelp,2yiqy-J6ESBZTvTU-qg6Jg,Mexican,mexican
+yelp,Fj96bOf2iYTjmteDPeNcwA,Japanese,japanese
+yelp,Fj96bOf2iYTjmteDPeNcwA,Sushi Bars,sushi
+yelp,Fj96bOf2iYTjmteDPeNcwA,Seafood,seafood
+yelp,12CqiOV1GVOO_OknEgUJ9A,Halal,halal
+yelp,12CqiOV1GVOO_OknEgUJ9A,Delis,delis
+yelp,12CqiOV1GVOO_OknEgUJ9A,Mediterranean,mediterranean
+yelp,fUT3wQ1uwkUqQOqxYeWPxg,Bubble Tea,bubbletea
+yelp,fUT3wQ1uwkUqQOqxYeWPxg,Cafes,cafes
+yelp,fUT3wQ1uwkUqQOqxYeWPxg,Desserts,desserts
+yelp,wk6GQbFTJ-6r_wqno9uiag,Vietnamese,vietnamese
+yelp,wk6GQbFTJ-6r_wqno9uiag,Asian Fusion,asianfusion
+yelp,532xMg8lsM36j4JwmAQubA,Diners,diners
+yelp,532xMg8lsM36j4JwmAQubA,Breakfast & Brunch,breakfast_brunch
+yelp,cQqDl2LsQw_JpbC-cu3KvA,Indian,indpak
+yelp,cQqDl2LsQw_JpbC-cu3KvA,Buffets,buffets
+yelp,cQqDl2LsQw_JpbC-cu3KvA,Seafood,seafood
+yelp,36dd_FrCgkgd4gBem8CI3Q,Chicken Wings,chicken_wings
+yelp,RlBx_YEnsFYnwJ7_S9VG3A,Food Trucks,foodtrucks
+yelp,RlBx_YEnsFYnwJ7_S9VG3A,Mexican,mexican
+yelp,hWRlOOzFvUpGGgcsld6RrQ,Cheesesteaks,cheesesteaks
+yelp,hWRlOOzFvUpGGgcsld6RrQ,Desserts,desserts
+yelp,7kiwG4kTapcD-8aGW87iKA,American,tradamerican
+yelp,7kiwG4kTapcD-8aGW87iKA,Breakfast & Brunch,breakfast_brunch
+yelp,7kiwG4kTapcD-8aGW87iKA,Wine Bars,wine_bars
+yelp,u8323fYN3b4ZJXOILZx54Q,Meat Shops,meats
+yelp,u8323fYN3b4ZJXOILZx54Q,Delis,delis
+yelp,u8323fYN3b4ZJXOILZx54Q,Sandwiches,sandwiches
+yelp,0ylNWojL5QsRRpQsJ2bapA,Japanese,japanese
+yelp,6uVGsdLl3OwKmZYK0fL8dQ,Mediterranean,mediterranean
+yelp,6uVGsdLl3OwKmZYK0fL8dQ,Breakfast & Brunch,breakfast_brunch
+yelp,6uVGsdLl3OwKmZYK0fL8dQ,Sandwiches,sandwiches
+yelp,DOYf0mdhAJjZHYfLQPDoCQ,Seafood,seafood
+yelp,DOYf0mdhAJjZHYfLQPDoCQ,Fish & Chips,fishnchips
+yelp,DOYf0mdhAJjZHYfLQPDoCQ,Burgers,burgers
+yelp,O8_uEW7j8FO61ofF1KgR5Q,Mediterranean,mediterranean
+yelp,O8_uEW7j8FO61ofF1KgR5Q,Lebanese,lebanese
+yelp,PlUIgHH2yHX7rxmNQPLz4A,Ramen,ramen
+yelp,PlUIgHH2yHX7rxmNQPLz4A,Tapas/Small Plates,tapasmallplates
+yelp,PlUIgHH2yHX7rxmNQPLz4A,Cocktail Bars,cocktailbars
+yelp,f21a6esKPqzgup8k43XLkA,Mexican,mexican
+yelp,_JlTf8X3R1v3igOYthZdkQ,Wine Bars,wine_bars
+yelp,_JlTf8X3R1v3igOYthZdkQ,Wine Tasting Room,winetastingroom
+yelp,_JlTf8X3R1v3igOYthZdkQ,New American,newamerican
+yelp,ih9bq5NrjGJul8T4ktmCng,Noodles,noodles
+yelp,3mVlWmARhgPDoOqKtdBuUA,Thai,thai
+yelp,3mVlWmARhgPDoOqKtdBuUA,Asian Fusion,asianfusion
+yelp,3mVlWmARhgPDoOqKtdBuUA,Seafood,seafood
+yelp,tR8rTk10oYroLjP6yn_7ww,Pizza,pizza
+yelp,ZN0yWM9ThxeMpFF-J2y5Uw,Coffee & Tea,coffee
+yelp,ZN0yWM9ThxeMpFF-J2y5Uw,"Beer, Wine & Spirits",beer_and_wine
+yelp,ZN0yWM9ThxeMpFF-J2y5Uw,Sandwiches,sandwiches
+yelp,GFVxe4gtWZwlILWp1qPTLg,Pizza,pizza
+yelp,GFVxe4gtWZwlILWp1qPTLg,Bars,bars
+yelp,dLcUez09N8fH0IuZGQfdjQ,Grocery,grocery
+yelp,dLcUez09N8fH0IuZGQfdjQ,Filipino,filipino
+yelp,DeJFMIbD7YVF5MwzAfbnWQ,Donuts,donuts
+yelp,DeJFMIbD7YVF5MwzAfbnWQ,Bubble Tea,bubbletea
+yelp,DeJFMIbD7YVF5MwzAfbnWQ,Korean,korean
+yelp,9X28_JRy7rnqOsfGcjwz8w,Bars,bars
+yelp,9X28_JRy7rnqOsfGcjwz8w,Mexican,mexican
+yelp,Gev9pvuI2imwWnU00SyQ_w,Bagels,bagels
+yelp,Gev9pvuI2imwWnU00SyQ_w,Pizza,pizza
+yelp,Gev9pvuI2imwWnU00SyQ_w,Delis,delis
+yelp,SVj6Iy_95vNTIHJjXmFEaQ,Tacos,tacos
+yelp,hPpb_Cgc7WPea9HO_Jj--g,Korean,korean
+yelp,kF2P7nTYvbmEijtLvXCeQA,Mediterranean,mediterranean
+yelp,kF2P7nTYvbmEijtLvXCeQA,Salad,salad
+yelp,S23KE0ZK4vcHHsVuZpVRFg,Juice Bars & Smoothies,juicebars
+yelp,S23KE0ZK4vcHHsVuZpVRFg,Acai Bowls,acaibowls
+yelp,S23KE0ZK4vcHHsVuZpVRFg,Wraps,wraps
+yelp,DeqeZjU9NgybUuILO94XVQ,Caribbean,caribbean
+yelp,DeqeZjU9NgybUuILO94XVQ,Bars,bars
+yelp,P2rmZJuOsYEDLxyF0tdHUA,Bubble Tea,bubbletea
+yelp,P2rmZJuOsYEDLxyF0tdHUA,Cafes,cafes
+yelp,P2rmZJuOsYEDLxyF0tdHUA,Desserts,desserts
+yelp,GTVOlps3_pCc9urmGc02Qg,New American,newamerican
+yelp,GTVOlps3_pCc9urmGc02Qg,Gluten-Free,gluten_free
+yelp,GTVOlps3_pCc9urmGc02Qg,Vegetarian,vegetarian
+yelp,OZq6qi1PbUKYL3lnPH4JCg,Coffee & Tea,coffee
+yelp,OZq6qi1PbUKYL3lnPH4JCg,Gelato,gelato
+yelp,OZq6qi1PbUKYL3lnPH4JCg,Breakfast & Brunch,breakfast_brunch
+yelp,wUfpCPXpwVz8q4NP3FEpvQ,American,tradamerican
+yelp,wUfpCPXpwVz8q4NP3FEpvQ,Breakfast & Brunch,breakfast_brunch
+yelp,wUfpCPXpwVz8q4NP3FEpvQ,Diners,diners
+yelp,rhJnFEe4e92tRTnhUq8HoA,Food Trucks,foodtrucks
+yelp,rhJnFEe4e92tRTnhUq8HoA,Comfort Food,comfortfood
+yelp,JknOiCoRXg0ETfit7HPu7Q,Venezuelan,venezuelan
+yelp,JknOiCoRXg0ETfit7HPu7Q,Empanadas,empanadas
+yelp,JknOiCoRXg0ETfit7HPu7Q,Burgers,burgers
+yelp,9IGlPsP7UINgt0wDCtJk9g,Cafes,cafes
+yelp,RaF7ltqIfkQ-vqct7sZNeg,Tacos,tacos
+yelp,JwlwrKulgSWPy4VPPTGyUA,Caribbean,caribbean
+yelp,JwlwrKulgSWPy4VPPTGyUA,Seafood,seafood
+yelp,JwlwrKulgSWPy4VPPTGyUA,Food Trucks,foodtrucks
+yelp,hATzdBHZ5z-lobaxlTsbVQ,Fast Food,hotdogs
+yelp,hATzdBHZ5z-lobaxlTsbVQ,Chicken Shop,chickenshop
+yelp,hATzdBHZ5z-lobaxlTsbVQ,Chicken Wings,chicken_wings
+yelp,-FA84VJIyH2pguzNbZuBPw,Coffee & Tea,coffee
+yelp,-FA84VJIyH2pguzNbZuBPw,Bakeries,bakeries
+yelp,-FA84VJIyH2pguzNbZuBPw,Breakfast & Brunch,breakfast_brunch
+yelp,GsYDuDZtNoxXJral_j2Sfg,Indian,indpak
+yelp,GsYDuDZtNoxXJral_j2Sfg,Thai,thai
+yelp,GsYDuDZtNoxXJral_j2Sfg,Chinese,chinese
+yelp,d_iZzYJ0ujaMDlcs1jBZTA,Greek,greek
+yelp,d_iZzYJ0ujaMDlcs1jBZTA,Falafel,falafel
+yelp,NCcUQ-SBPTGSp1oFRHoRvA,Mexican,mexican
+yelp,NCcUQ-SBPTGSp1oFRHoRvA,Seafood,seafood
+yelp,NCcUQ-SBPTGSp1oFRHoRvA,Breakfast & Brunch,breakfast_brunch
+yelp,l7rjq2NX8wwSzoZrNWZq1A,Salad,salad
+yelp,l7rjq2NX8wwSzoZrNWZq1A,Juice Bars & Smoothies,juicebars
+yelp,l7rjq2NX8wwSzoZrNWZq1A,Sandwiches,sandwiches
+yelp,5MjZHHTsPqMspOCGkFSJlw,Italian,italian
+yelp,5MjZHHTsPqMspOCGkFSJlw,Pizza,pizza
+yelp,gPv4imFDDmUZdZI6V7A8fA,Coffee & Tea,coffee
+yelp,gPv4imFDDmUZdZI6V7A8fA,Juice Bars & Smoothies,juicebars
+yelp,gPv4imFDDmUZdZI6V7A8fA,Sandwiches,sandwiches
+yelp,A1VeLdTlPeY40-_68bcXUw,Pubs,pubs
+yelp,A1VeLdTlPeY40-_68bcXUw,Chicken Wings,chicken_wings
+yelp,A1VeLdTlPeY40-_68bcXUw,American,tradamerican
+yelp,m66iFIV1UXCUY82sn_Ubgg,Pizza,pizza
+yelp,m66iFIV1UXCUY82sn_Ubgg,Italian,italian
+yelp,QPCThOSMR94LqeWNzyAalA,Breakfast & Brunch,breakfast_brunch
+yelp,QPCThOSMR94LqeWNzyAalA,Cafes,cafes
+yelp,QPCThOSMR94LqeWNzyAalA,American,tradamerican
+yelp,x5oD1-3lEbL0BXW6qRDZRQ,Coffee & Tea,coffee
+yelp,x5oD1-3lEbL0BXW6qRDZRQ,Bakeries,bakeries
+yelp,x5oD1-3lEbL0BXW6qRDZRQ,Breakfast & Brunch,breakfast_brunch
+yelp,3Jmn-j417jC4McG0xoJTwA,Salad,salad
+yelp,3Jmn-j417jC4McG0xoJTwA,Mediterranean,mediterranean
+yelp,3Jmn-j417jC4McG0xoJTwA,Greek,greek
+yelp,DsAQyY00TqqP2zZkMVkRMQ,Diners,diners
+yelp,DsAQyY00TqqP2zZkMVkRMQ,American,tradamerican
+yelp,DsAQyY00TqqP2zZkMVkRMQ,Breakfast & Brunch,breakfast_brunch
+yelp,4mliCHzBpAP4CSNplEQQGw,Pizza,pizza
+yelp,4mliCHzBpAP4CSNplEQQGw,Italian,italian
+yelp,4mliCHzBpAP4CSNplEQQGw,Salad,salad
+yelp,oTBEIzQDE_BYxZtZbTBE8g,Southern,southern
+yelp,oTBEIzQDE_BYxZtZbTBE8g,Sandwiches,sandwiches
+yelp,oTBEIzQDE_BYxZtZbTBE8g,Chicken Shop,chickenshop
+yelp,Aj-F_Pg3vERqjRM1tCfn6Q,Japanese,japanese
+yelp,Aj-F_Pg3vERqjRM1tCfn6Q,Asian Fusion,asianfusion
+yelp,Qj3bLY021R8Z87iA4GIR4w,Mexican,mexican
+yelp,Qj3bLY021R8Z87iA4GIR4w,Seafood,seafood
+yelp,Qj3bLY021R8Z87iA4GIR4w,Steakhouses,steak
+yelp,J-O-ZWpIQxQf9usgGCMzwg,Vietnamese,vietnamese
+yelp,-vD0CxKDZ2ux34GsS1P9eQ,Dominican,dominican
+yelp,-vD0CxKDZ2ux34GsS1P9eQ,Latin American,latin
+yelp,wLXfBALxXsVXnvQwKgDB1g,Gas Stations,servicestations
+yelp,wLXfBALxXsVXnvQwKgDB1g,Convenience Stores,convenience
+yelp,wLXfBALxXsVXnvQwKgDB1g,Fast Food,hotdogs
+yelp,ahRdnWQ5TgbdZoB8H29kdw,Chinese,chinese
+yelp,n4diWKcRvAFctwdRA6IPMg,Indian,indpak
+yelp,n4diWKcRvAFctwdRA6IPMg,Buffets,buffets
+yelp,n4diWKcRvAFctwdRA6IPMg,Halal,halal
+yelp,PYp9fOYKtZOiQ3i8_uaT_A,Halal,halal
+yelp,PYp9fOYKtZOiQ3i8_uaT_A,Burgers,burgers
+yelp,PYp9fOYKtZOiQ3i8_uaT_A,Sandwiches,sandwiches
+yelp,zjhDUTxDRj2j9GYIm3ppmQ,Waffles,waffles
+yelp,pl2X239BqQASbaZn_hr_rQ,Pizza,pizza
+yelp,aBpppwrcfqG91GTt3Q344Q,Mexican,mexican
+yelp,aBpppwrcfqG91GTt3Q344Q,Bars,bars
+yelp,w_jkSpTEgFdDMbK37qbVUw,Venezuelan,venezuelan
+yelp,w_jkSpTEgFdDMbK37qbVUw,Food Trucks,foodtrucks
+yelp,w_jkSpTEgFdDMbK37qbVUw,Empanadas,empanadas
+yelp,KVReSFb2dwgjnSkl1Kn2vQ,Haitian,haitian
+yelp,KVReSFb2dwgjnSkl1Kn2vQ,Bakeries,bakeries
+yelp,mBUl13DWXTJuojdvByMhOw,Vegan,vegan
+yelp,88FDp8wKJOvebcVG8RYyYg,Indian,indpak
+yelp,88FDp8wKJOvebcVG8RYyYg,Halal,halal
+yelp,88FDp8wKJOvebcVG8RYyYg,Buffets,buffets
+yelp,oF344ESz0ZbbAG4Aa7wfXw,New American,newamerican
+yelp,oF344ESz0ZbbAG4Aa7wfXw,Burgers,burgers
+yelp,oF344ESz0ZbbAG4Aa7wfXw,Chicken Wings,chicken_wings
+yelp,wxMYLgRy-fNURdLNRJLhQQ,New American,newamerican
+yelp,wxMYLgRy-fNURdLNRJLhQQ,Gastropubs,gastropubs
+yelp,wxMYLgRy-fNURdLNRJLhQQ,Burgers,burgers
+yelp,WCVjKoBLW-g7NJqkXOD1hw,Empanadas,empanadas
+yelp,WCVjKoBLW-g7NJqkXOD1hw,Burgers,burgers
+yelp,WCVjKoBLW-g7NJqkXOD1hw,Venezuelan,venezuelan
+yelp,lr72ma2Ft4Sq9speBCMRFg,Korean,korean
+yelp,lr72ma2Ft4Sq9speBCMRFg,Hot Dogs,hotdog
+yelp,gESBiku1Vm0L9TqQ3-cdoQ,Breakfast & Brunch,breakfast_brunch
+yelp,gESBiku1Vm0L9TqQ3-cdoQ,American,tradamerican
+yelp,1s_5CutChvh7UjfsPXmnKw,Hotels,hotels
+yelp,1s_5CutChvh7UjfsPXmnKw,Venues & Event Spaces,venues
+yelp,1s_5CutChvh7UjfsPXmnKw,Restaurants,restaurants
+yelp,Lr0p83oJ9vwqkrmIijFRXQ,Japanese,japanese
+yelp,Lr0p83oJ9vwqkrmIijFRXQ,Sushi Bars,sushi
+yelp,AHuxRtNLfwKe2r-RcOec8g,Pizza,pizza
+yelp,AHuxRtNLfwKe2r-RcOec8g,Sandwiches,sandwiches
+yelp,AHuxRtNLfwKe2r-RcOec8g,Chicken Wings,chicken_wings
+yelp,Cnwztcv2dbOQPhKUC2rCgQ,Bagels,bagels
+yelp,Cnwztcv2dbOQPhKUC2rCgQ,Coffee & Tea,coffee
+yelp,Cnwztcv2dbOQPhKUC2rCgQ,Breakfast & Brunch,breakfast_brunch
+yelp,4ZSeYOjAav_clggCJnMf0Q,Coffee & Tea,coffee
+yelp,4ZSeYOjAav_clggCJnMf0Q,Bakeries,bakeries
+yelp,4ZSeYOjAav_clggCJnMf0Q,Sandwiches,sandwiches
+yelp,pvwGB6dvjR_kqSbsrVTzhQ,Burgers,burgers
+yelp,pvwGB6dvjR_kqSbsrVTzhQ,Bars,bars
+yelp,pvwGB6dvjR_kqSbsrVTzhQ,Comfort Food,comfortfood
+yelp,r-X4Hkgc2-QthQuxSyeJvQ,Ramen,ramen
+yelp,r-X4Hkgc2-QthQuxSyeJvQ,Noodles,noodles
+yelp,r-X4Hkgc2-QthQuxSyeJvQ,Burgers,burgers
+yelp,BxiFhUmgDDYJT-BYob89lw,Caribbean,caribbean
+yelp,vA_D0aUfjro04ZBzrG8CWg,Colombian,colombian
+yelp,vA_D0aUfjro04ZBzrG8CWg,Bars,bars
+yelp,p_acXZANMscvg4lycU9QrA,Cocktail Bars,cocktailbars
+yelp,p_acXZANMscvg4lycU9QrA,New American,newamerican
+yelp,L6L8ctIeqsGjb65wktv4bg,Ramen,ramen
+yelp,L6L8ctIeqsGjb65wktv4bg,Noodles,noodles
+yelp,7svMP3MzaqnTxzOT8PChyw,Breakfast & Brunch,breakfast_brunch
+yelp,7svMP3MzaqnTxzOT8PChyw,Cafes,cafes
+yelp,7svMP3MzaqnTxzOT8PChyw,American,tradamerican
+yelp,yCKq3dpZGI6NOebGOl_wAA,Hot Pot,hotpot
+yelp,yCKq3dpZGI6NOebGOl_wAA,Barbeque,bbq
+yelp,xRnhBtG63UNqQaC7wJUUZA,Barbeque,bbq
+yelp,xRnhBtG63UNqQaC7wJUUZA,Southern,southern
+yelp,xRnhBtG63UNqQaC7wJUUZA,Smokehouse,smokehouse
+yelp,x96GrCPiqmRbQVVfJnKOew,Sandwiches,sandwiches
+yelp,x96GrCPiqmRbQVVfJnKOew,Salad,salad
+yelp,x96GrCPiqmRbQVVfJnKOew,Coffee & Tea,coffee
+yelp,koWzzlPUIIxUhFmOeHB04g,Breakfast & Brunch,breakfast_brunch
+yelp,koWzzlPUIIxUhFmOeHB04g,Indian,indpak
+yelp,koWzzlPUIIxUhFmOeHB04g,Seafood,seafood
+yelp,fjhnVGid-Wf58nKon1uKxQ,Gas Stations,servicestations
+yelp,fjhnVGid-Wf58nKon1uKxQ,Convenience Stores,convenience
+yelp,fjhnVGid-Wf58nKon1uKxQ,Fast Food,hotdogs
+yelp,MCaHV1E4_Ai_t8eoADS_pw,Halal,halal
+yelp,MCaHV1E4_Ai_t8eoADS_pw,Wraps,wraps
+yelp,MCaHV1E4_Ai_t8eoADS_pw,Sandwiches,sandwiches
+yelp,x-3TP0SU8DuQf8IScVBQkQ,Fast Food,hotdogs
+yelp,_EO6L3whXvM7Zeb1J9zgug,Hot Dogs,hotdog
+yelp,_EO6L3whXvM7Zeb1J9zgug,Burgers,burgers
+yelp,_EO6L3whXvM7Zeb1J9zgug,Food Trucks,foodtrucks
+yelp,Xql2b7yE58m4gePiXY-fgw,Food Delivery Services,fooddeliveryservices
+yelp,Xql2b7yE58m4gePiXY-fgw,Comfort Food,comfortfood
+yelp,Xql2b7yE58m4gePiXY-fgw,Mediterranean,mediterranean
+yelp,T6zndpRoskQjjc0mREqyhw,Noodles,noodles
+yelp,T6zndpRoskQjjc0mREqyhw,Korean,korean
+yelp,T6zndpRoskQjjc0mREqyhw,Thai,thai
+yelp,2a7pafBpuK4i_boSpijcjw,Indian,indpak
+yelp,cNwvL84tBZIupf6O5-akbw,Seafood,seafood
+yelp,cNwvL84tBZIupf6O5-akbw,Food Trucks,foodtrucks
+yelp,cNwvL84tBZIupf6O5-akbw,Sandwiches,sandwiches
+yelp,W9DvCHjr90UW7oKuPtKHKw,Food Trucks,foodtrucks
+yelp,W9DvCHjr90UW7oKuPtKHKw,Burgers,burgers
+yelp,W9DvCHjr90UW7oKuPtKHKw,Mexican,mexican
+yelp,AoITYzEFIYowjVFSFJy_Yg,Food Trucks,foodtrucks
+yelp,AoITYzEFIYowjVFSFJy_Yg,Sandwiches,sandwiches
+yelp,AoITYzEFIYowjVFSFJy_Yg,Puerto Rican,puertorican
+yelp,OSpU_DF50MSl8vNW5Xsm3g,Sandwiches,sandwiches
+yelp,OSpU_DF50MSl8vNW5Xsm3g,Fast Food,hotdogs
+yelp,OSpU_DF50MSl8vNW5Xsm3g,Delis,delis
+yelp,gcRAte8fVq7SFfpusuAKuA,Food Trucks,foodtrucks
+yelp,gcRAte8fVq7SFfpusuAKuA,Tacos,tacos
+yelp,yHKpTbspgKBlCVaknfus8g,Salad,salad
+yelp,yHKpTbspgKBlCVaknfus8g,Wraps,wraps
+yelp,Xn_Vq6WvXpzvNU0xnApUxw,Caribbean,caribbean
+yelp,I-lYkCL-QYq3MduXIqwSDA,Food Stands,foodstands
+yelp,TXNqNvsO0gfXYHjR6t6btA,Pizza,pizza
+yelp,TXNqNvsO0gfXYHjR6t6btA,Food Trucks,foodtrucks
+yelp,k-cyDkIR1ezQrDj8eNboew,Chinese,chinese
+yelp,JdwifpC41vIh2sXwE2SDaQ,Chinese,chinese
+yelp,JdwifpC41vIh2sXwE2SDaQ,Bakeries,bakeries
