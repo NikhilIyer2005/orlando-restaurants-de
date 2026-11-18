@@ -1,6 +1,7 @@
 import json
+from math import asin, cos, radians, sin, sqrt
 from pathlib import Path
-from math import radians, sin, cos, asin, sqrt
+
 import pandas as pd
 
 # UCF center point
@@ -17,23 +18,27 @@ def haversine_miles(lat1: float, lon1: float, lat2: float, lon2: float) -> float
     # radius of Earth (miles)
     R = 3958.7613
     lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
-    dlat = lat2- lat1
-    dlon = lon2- lon1
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
 
     a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
     c = 2 * asin(sqrt(a))
     return R * c
 
+
 def load_businesses() -> list[dict]:
     files = sorted(RAW_DIR.glob("yelp_search_offset_*.json"))
     if not files:
-        raise FileNotFoundError("No raw files found in data/raw (expected yelp_search_offset_*.json)")
-    
+        raise FileNotFoundError(
+            "No raw files found in data/raw (expected yelp_search_offset_*.json)"
+        )
+
     businesses: list[dict] = []
     for fp in files:
         data = json.loads(fp.read_text(encoding="utf-8"))
         businesses.extend(data.get("businesses", []))
     return businesses
+
 
 def normalize(businesses: list[dict]) -> pd.DataFrame:
     rows = []
@@ -53,7 +58,9 @@ def normalize(businesses: list[dict]) -> pd.DataFrame:
         city = loc.get("city")
         state = loc.get("state")
         zip_code = loc.get("zip_code")
-        full_address = ", ".join([x for x in display_address if x]) if display_address else None
+        full_address = (
+            ", ".join([x for x in display_address if x]) if display_address else None
+        )
 
         # Distance to UCF
         if isinstance(lat, (int, float)) and isinstance(lon, (int, float)):
@@ -80,21 +87,23 @@ def normalize(businesses: list[dict]) -> pd.DataFrame:
                 "city": city,
                 "state": state,
                 "zip_code": zip_code,
-                "full_address": full_address
+                "full_address": full_address,
             }
         )
-    
+
     df = pd.DataFrame(rows)
 
     # Drop rows missing a business id
-    df = df.dropna(subset=['source_id'])
+    df = df.dropna(subset=["source_id"])
 
     # Deduplicate: keep first occurrence per source_id
-    df = df.drop_duplicates(subset=['source_id'], keep= "first")
+    df = df.drop_duplicates(subset=["source_id"], keep="first")
 
     # Sort by distance
     if "distance_to_ucf_miles" in df.columns:
-        df = df.sort_values(by='distance_to_ucf_miles', ascending=True, na_position='last')
+        df = df.sort_values(
+            by="distance_to_ucf_miles", ascending=True, na_position="last"
+        )
     return df
 
 
@@ -110,6 +119,6 @@ def main() -> None:
     print("Top 5 closest (name, miles):")
     print(df[["name", "distance_to_ucf_miles"]].head(5).to_string(index=False))
 
+
 if __name__ == "__main__":
     main()
-        

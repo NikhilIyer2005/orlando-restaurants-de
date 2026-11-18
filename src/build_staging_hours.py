@@ -1,13 +1,13 @@
 import json
 from pathlib import Path
-import pandas as pd
 
+import pandas as pd
 
 DETAILS_DIR = Path("data/raw/details")
 OUT_DIR = Path("data/staging")
 OUT_PATH = OUT_DIR / "staging_hours.csv"
 
-LATE_NIGHT_CUTOFF = "23:00" # 11PM
+LATE_NIGHT_CUTOFF = "23:00"  # 11PM
 
 
 def hhmm_from_yelp(time_str: str | None) -> str | None:
@@ -26,13 +26,13 @@ def main() -> None:
     files = sorted(DETAILS_DIR.glob("*.json"))
     if not files:
         raise FileNotFoundError("No detail JSON files found in data/raw/details")
-    
+
     rows = []
     missing_hours = 0
 
     for fp in files:
-        data = json.loads(fp.read_text(encoding='utf-8'))
-        source_id = data.get('id')
+        data = json.loads(fp.read_text(encoding="utf-8"))
+        source_id = data.get("id")
         if not source_id:
             continue
 
@@ -42,7 +42,7 @@ def main() -> None:
             continue
 
         # Yelp can have multiple "hours" entries
-        open_periods = hours_list[0].get('open') or []
+        open_periods = hours_list[0].get("open") or []
         for p in open_periods:
             day = p.get("day")
             start = hhmm_from_yelp(p.get("start"))
@@ -65,14 +65,16 @@ def main() -> None:
                     "start_time": start,
                     "end_time": end,
                     "is_overnight": int(is_overnight),
-                    "is_late_night_11pm": int(is_late_night_llpm)
+                    "is_late_night_11pm": int(is_late_night_llpm),
                 }
             )
     df = pd.DataFrame(rows)
 
     # Dedupe in case of weird duplicates
     if not df.empty:
-        df = df.drop_duplicates(subset=['source_id', 'day', 'start_time', 'end_time'], keep='first')
+        df = df.drop_duplicates(
+            subset=["source_id", "day", "start_time", "end_time"], keep="first"
+        )
 
     df.to_csv(OUT_PATH, index=False)
 
@@ -82,12 +84,23 @@ def main() -> None:
     print(f"Restaurants missing hours: {missing_hours}")
 
     if not df.empty:
-        late = df.groupby('source_id')['is_late_night_11pm'].max()
+        late = df.groupby("source_id")["is_late_night_11pm"].max()
         print(f"Late-night (11pm+) restaurants: {int(late.sum())}")
 
         print("\nSample late-night rows:")
-        sample = df[df['is_late_night_11pm'] == 1].head(10)
-        print(sample[['source_id', 'day', 'start_time', 'end_time', 'is_overnight', 'is_late_night_11pm']].to_string(index=False))
+        sample = df[df["is_late_night_11pm"] == 1].head(10)
+        print(
+            sample[
+                [
+                    "source_id",
+                    "day",
+                    "start_time",
+                    "end_time",
+                    "is_overnight",
+                    "is_late_night_11pm",
+                ]
+            ].to_string(index=False)
+        )
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 from pathlib import Path
+
 import pandas as pd
 
 STAGING_DIR = Path("data/staging")
@@ -7,12 +8,15 @@ RESTAURANTS_PATH = STAGING_DIR / "staging_restaurants.csv"
 CUISINE_PATH = STAGING_DIR / "staging_cuisine_map.csv"
 OUT_PATH = STAGING_DIR / "indian_restaurants.csv"
 
+
 def main() -> None:
     restaurants = pd.read_csv(RESTAURANTS_PATH)
     cuisine = pd.read_csv(CUISINE_PATH)
 
     # Filter to Indian
-    indian_ids = cuisine.loc[cuisine["canonical_cuisine"] == "Indian", "source_id"].unique()
+    indian_ids = cuisine.loc[
+        cuisine["canonical_cuisine"] == "Indian", "source_id"
+    ].unique()
     indian = restaurants[restaurants["source_id"].isin(indian_ids)].copy()
 
     # Keep only useful columns for now
@@ -27,7 +31,7 @@ def main() -> None:
         "city",
         "state",
         "zip_code",
-        "url"
+        "url",
     ]
     indian = indian[cols]
 
@@ -35,7 +39,7 @@ def main() -> None:
     indian = indian.sort_values(
         by=["rating", "review_count", "distance_to_ucf_miles"],
         ascending=[False, False, True],
-        na_position="last"
+        na_position="last",
     )
 
     indian.to_csv(OUT_PATH, index=False)
@@ -48,6 +52,7 @@ def main() -> None:
         .head(8)
         .to_string(index=False)
     )
+
 
 if __name__ == "__main__":
     main()
