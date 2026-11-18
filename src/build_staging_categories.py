@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+
 import pandas as pd
 
 RAW_DIR = Path("data/raw")
@@ -14,7 +15,7 @@ def main() -> None:
     files = sorted(RAW_DIR.glob("yelp_search_offset_*.json"))
     if not files:
         raise FileNotFoundError("No raw files found in data/raw")
-    
+
     for fp in files:
         data = json.loads(fp.read_text(encoding="utf-8"))
         businesses = data.get("businesses", [])
@@ -31,7 +32,7 @@ def main() -> None:
                         "source": "yelp",
                         "source_id": source_id,
                         "category_title": c.get("title"),
-                        "category_alias": c.get("alias")
+                        "category_alias": c.get("alias"),
                     }
                 )
     df = pd.DataFrame(rows)
@@ -40,7 +41,7 @@ def main() -> None:
     df = df.dropna(subset=["source_id", "category_alias"])
 
     # Deduplicate in case the same restaurant appears in multiple pages
-    df = df.drop_duplicates(subset=["source_id", "category_alias"], keep='first')
+    df = df.drop_duplicates(subset=["source_id", "category_alias"], keep="first")
 
     df.to_csv(OUT_PATH, index=False)
     print(f"Saved: {OUT_PATH}")
@@ -55,6 +56,7 @@ def main() -> None:
         .head(10)
         .to_string()
     )
+
 
 if __name__ == "__main__":
     main()

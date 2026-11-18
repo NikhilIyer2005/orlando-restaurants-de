@@ -1,5 +1,6 @@
-from pathlib import Path
 import os
+from pathlib import Path
+
 import pandas as pd
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
@@ -15,14 +16,15 @@ TABLES = {
     "staging_hours": STAGING_DIR / "staging_hours.csv",
     "indian_restaurants": STAGING_DIR / "indian_restaurants.csv",
     "late_night_restaurants": STAGING_DIR / "late_night_restaurants.csv",
-    "late_night_indian_restaurants": STAGING_DIR / "late_night_indian_restaurants.csv"
+    "late_night_indian_restaurants": STAGING_DIR / "late_night_indian_restaurants.csv",
 }
+
 
 def main() -> None:
     pg_url = os.getenv("POSTGRES_URL")
     if not pg_url:
         raise RuntimeError("Missing POSTGRES_URL in .env")
-    
+
     engine = create_engine(pg_url)
 
     for table_name, csv_path in TABLES.items():
@@ -33,7 +35,7 @@ def main() -> None:
         df = pd.read_csv(csv_path)
         df.to_sql(table_name, engine, if_exists="replace", index=False)
         print(f"Loaded {table_name} ({len(df)} rows)")
-    
+
     print("\n✅ Postgres load complete.")
 
 

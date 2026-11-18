@@ -1,4 +1,5 @@
 from pathlib import Path
+
 import pandas as pd
 
 STAGING_DIR = Path("data/staging")
@@ -7,11 +8,12 @@ OUT_PATH = STAGING_DIR / "staging_cuisine_map.csv"
 
 # Canonical cuisine mapping rules
 CANONICAL_MAP = {
-    'indpak': "Indian",
-    'pakistani': "Indian",
-    'himalayan': "Indian",
-    'indianfusion': "Indian"
+    "indpak": "Indian",
+    "pakistani": "Indian",
+    "himalayan": "Indian",
+    "indianfusion": "Indian",
 }
+
 
 def main() -> None:
     df = pd.read_csv(CATEGORIES_PATH)
@@ -31,6 +33,7 @@ def main() -> None:
     print(f"Indian restaurants identified: {df['source_id'].nunique()}")
     print("\nSample rows:")
     print(df.head(10).to_string(index=False))
+
 
 if __name__ == "__main__":
     main()

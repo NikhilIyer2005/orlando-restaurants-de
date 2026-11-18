@@ -2,6 +2,7 @@ import json
 import os
 import time
 from pathlib import Path
+
 import pandas as pd
 import requests
 from dotenv import load_dotenv
@@ -19,7 +20,7 @@ def fetch_one(api_key: str, business_id: str) -> dict:
     # Yelp rate limiting can return 429 :contentReference[oaicite:4]{index=4}
     if resp.status_code == 429:
         raise RuntimeError("429 rate limit from Yelp (Too Many Requests)")
-    
+
     resp.raise_for_status()
     return resp.json()
 
@@ -29,7 +30,7 @@ def main() -> None:
     api_key = os.getenv("YELP_API_KEY")
     if not api_key:
         raise RuntimeError("Missing YELP_API_KEY in your .env file")
-    
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(STAGING_RESTAURANTS)
@@ -38,7 +39,7 @@ def main() -> None:
     # Safety cap
     ids = ids[:200]
 
-    pause_seconds = 0.35    # if hit 429, increase to 0.75-1.0
+    pause_seconds = 0.35  # if hit 429, increase to 0.75-1.0
     max_retries_429 = 5
 
     saved = 0
@@ -62,8 +63,10 @@ def main() -> None:
             except RuntimeError as e:
                 if "429" in str(e) and retries < max_retries_429:
                     # simple backoff
-                    wait = (2 ** retries) * 1.0
-                    print(f"[{i}/{len(ids)}] 429 rate limit. Sleeping {wait:.1f}s then retrying...")
+                    wait = (2**retries) * 1.0
+                    print(
+                        f"[{i}/{len(ids)}] 429 rate limit. Sleeping {wait:.1f}s then retrying..."
+                    )
                     time.sleep(wait)
                     retries += 1
                     continue
@@ -79,4 +82,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
