@@ -4,6 +4,7 @@ data/warehouse/
 __pycache__/
 *.db
 .DS_Store
+.pytest_cache/
 
 # Python virtual environment and Ruff cache
 .venv/
