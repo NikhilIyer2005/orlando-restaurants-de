@@ -17,7 +17,7 @@ def hhmm_from_yelp(time_str: str | None) -> str | None:
     s = time_str.strip()
     if len(s) != 4 or not s.isdigit():
         return None
-    return f"{s[:2]} : {s[2:]}"
+    return f"{s[:2]}:{s[2:]}"
 
 
 def main() -> None:

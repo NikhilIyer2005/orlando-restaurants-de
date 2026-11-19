@@ -50,6 +50,8 @@ def normalize(businesses: list[dict]) -> pd.DataFrame:
         lat = coords.get("latitude")
         lon = coords.get("longitude")
 
+        distance_to_ucf = None
+
         # Basic address flattening
         display_address = loc.get("display_address") or []
         address_1 = loc.get("address1")

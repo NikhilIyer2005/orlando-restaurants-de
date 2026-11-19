@@ -1,0 +1,6 @@
+pytest
+ruff
+pandas
+requests
+python-dotenv
+sqlalchemy
